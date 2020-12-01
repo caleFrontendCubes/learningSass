@@ -1,10 +1,11 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 01-Dec-2020, 01:32:25
-    Author     : Radiša
-*/
+$footer-bg : $purple;
+$footer-color: $white;
+
+footer {
+    padding: 30px 0;
+    background-color: $footer-bg;
+}
+footer a, footer p{
+    color: $footer-color;
+}
 
