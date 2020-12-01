@@ -22,7 +22,7 @@ $btn-dark:$black;
 .btn-default{
     @extend %btn;
     background-color: rgba($btn-default,0.8) ;
-    color: $btn-default-color;
+    color: colorYiq($btn-default);
     &:hover{
         background-color: darken($btn-default,10%);
     }
@@ -30,7 +30,7 @@ $btn-dark:$black;
 .btn-danger{
     @extend %btn;
     background-color: $btn-danger;
-    color: $btn-default-color;
+    color: colorYiq($btn-danger);
     &:hover{
         background-color: darken($btn-danger,10%);
     }
@@ -38,7 +38,7 @@ $btn-dark:$black;
 .btn-succes{
     @extend %btn;
     background-color: $btn-succes;
-    color: $btn-default-color;
+    color: colorYiq($btn-succes);
     &:hover{
         background-color: darken($btn-succes,10%);
     }
@@ -46,7 +46,7 @@ $btn-dark:$black;
 .btn-warning{
     @extend %btn;
     background-color: $btn-warning;
-    color: $btn-default-color;
+    color: colorYiq($btn-warning);
     &:hover{
         background-color: darken($btn-warning,10%);
     }
@@ -54,7 +54,7 @@ $btn-dark:$black;
 .btn-info{
     @extend %btn;
     background-color: $btn-info;
-    color: $btn-dark-color;
+    color: colorYiq($btn-info);
     &:hover{
         background-color: darken($btn-info,10%);
     }
@@ -62,7 +62,7 @@ $btn-dark:$black;
 .btn-dark{
     @extend %btn;//prosiruje klasu 
     background-color: $btn-dark;
-    color: $btn-default-color;
+    color: colorYiq($btn-dark);
     &:hover{
         background-color: lighten($btn-dark,30%);
     }
