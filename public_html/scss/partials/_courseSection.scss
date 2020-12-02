@@ -9,7 +9,7 @@ $tbody-even-bg: $white;
 $tbody-hover-bg: darken($light-gray, 15%);
 .course-section{
     //padding: 50px 0;
-    @include styleSecton(50px,50px, transparent);
+    @include styleSection(50px,50px, transparent);
     
     table{
         border:$table-border;
